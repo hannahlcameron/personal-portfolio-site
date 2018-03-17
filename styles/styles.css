@@ -5,6 +5,24 @@ body {
   background-color: rgba(119, 249, 245, .7);
 }
 
+body ul {
+  list-style: none;
+}
+
+body a {
+  color: rgba(100, 103, 58, 0.6);
+  text-decoration: none;
+}
+
+body a:hover {
+  color: rgba(100, 103, 58, 1);
+  text-decoration: underline;
+}
+
+body a:visited {
+  color: rgba(100, 103, 58, 0.8);
+}
+
 /*general formatting for the header*/
 header {
   position: fixed;
@@ -51,4 +69,33 @@ nav h4:last-of-type {
 /*general formatting for the main section*/
 main {
   margin-top: 100px;
+  border-top: solid;
+  border-bottom: solid;
+}
+
+section {
+  border-bottom: dotted;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+/*general formatting for the footer*/
+
+footer {
+  opacity: .5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer p {
+  display: inline;
+}
+
+footer div {
+  display: inline;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
