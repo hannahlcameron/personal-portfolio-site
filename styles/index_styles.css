@@ -1,0 +1,29 @@
+/*styles for the main*/
+
+main {
+
+}
+
+/*styles for the welcome section*/
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  max-height: 410px;
+}
+
+
+#headshot {
+  object-fit: contain;
+  border-style: solid;
+  margin: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.welcome div {
+  border-style: dotted;
+  padding: 2em;
+  margin: 3em;
+}
