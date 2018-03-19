@@ -1,0 +1,58 @@
+
+/*main styling*/
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+/*intro styling*/
+
+#intro {
+  display: grid;
+  grid-column: repeat(3 ,1fr);
+  width: 100vw;
+}
+
+#intro p {
+  display: inline;
+  margin: 2em;
+  text-align: center;
+  align-self: center;
+  width: 40vw;
+}
+
+#intro p:first-of-type {
+  grid-column: 1 / 2;
+}
+
+#intro img {
+  grid-column: 2 / 3;
+  display: inline;
+  padding: 2em;
+  border-left: dotted;
+  border-right: dotted;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 20vw;
+}
+
+#intro p:last-of-type {
+  grid-column: 3 / 4;
+}
+
+#lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#lists ul {
+  padding-left:1em;
+  padding-right: 1em;
+}
+
+#lists h3 {
+  padding-left:1em;
+  padding-right: 1em;
+}
