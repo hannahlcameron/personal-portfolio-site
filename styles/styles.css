@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Comfortaa', cursive;
-  background-color: rgba(119, 249, 245, .7);
+  background-color: rgb(119, 249, 245);
 }
 
 body ul {
@@ -26,10 +26,11 @@ body a:visited {
 /*general formatting for the header*/
 header {
   position: fixed;
-    top: 0;
-    width: 100vw;
-    opacity: 1;
-    margin: 1em;
+  top: 0;
+  width: 100vw;
+  opacity: 1;
+  padding: 1em;
+  background-color: rgba(119, 249, 245, 1);
 }
 
 nav {

@@ -1,0 +1,30 @@
+#project-collection {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#project-collection .project {
+  display: flex;
+  flex-direction: column;
+  border: dotted;
+  padding: 20px;
+  margin: 40px;
+}
+
+#project-collection .project h3 {
+  text-decoration: underline;
+  margin: 0px;
+}
+
+.project img {
+  /*grid-column: 1 / 2;
+  grid-row: 1 / 3;*/
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+
+/*.project a {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}*/
