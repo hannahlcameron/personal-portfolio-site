@@ -1,0 +1,27 @@
+/*styling for blog page*/
+
+main {
+  padding-bottom: 2em;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#older-posts {
+  flex: row;
+  flex-flow: wrap;
+  border: dotted;
+  padding: 1.5em;
+  margin-top: 2em;
+}
+
+#older-posts a {
+  margin: 1em;
+}
